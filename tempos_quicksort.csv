@@ -1,0 +1,13 @@
+tamanho,tipo,algoritmo,tempo_medio_s
+1000,Aleatorio,Quicksort,0.0000601
+1000,Crescente,Quicksort,0.0016840
+1000,Decrescente,Quicksort,0.0012198
+5000,Aleatorio,Quicksort,0.0003868
+5000,Crescente,Quicksort,0.0421107
+5000,Decrescente,Quicksort,0.0285715
+10000,Aleatorio,Quicksort,0.0007870
+10000,Crescente,Quicksort,0.1633423
+10000,Decrescente,Quicksort,0.1200903
+50000,Aleatorio,Quicksort,0.0046217
+50000,Crescente,Quicksort,4.1314650
+50000,Decrescente,Quicksort,2.9223913

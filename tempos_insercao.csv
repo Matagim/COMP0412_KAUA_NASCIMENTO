@@ -1,0 +1,13 @@
+tamanho,tipo,algoritmo,tempo_medio_s
+1000,Aleatorio,insercao,0.0007461
+1000,Crescente,insercao,0.0000029
+1000,Decrescente,insercao,0.0008961
+5000,Aleatorio,insercao,0.0160729
+5000,Crescente,insercao,0.0000124
+5000,Decrescente,insercao,0.0225035
+10000,Aleatorio,insercao,0.0690860
+10000,Crescente,insercao,0.0000242
+10000,Decrescente,insercao,0.0918624
+50000,Aleatorio,insercao,1.8065897
+50000,Crescente,insercao,0.0001201
+50000,Decrescente,insercao,2.2908519

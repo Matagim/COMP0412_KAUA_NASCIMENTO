@@ -1,0 +1,13 @@
+tamanho,tipo,algoritmo,tempo_medio_s
+1000,Aleatorio,Mergesort,0.0000690
+1000,Crescente,Mergesort,0.0000691
+1000,Decrescente,Mergesort,0.0000671
+5000,Aleatorio,Mergesort,0.0003869
+5000,Crescente,Mergesort,0.0003837
+5000,Decrescente,Mergesort,0.0004020
+10000,Aleatorio,Mergesort,0.0008334
+10000,Crescente,Mergesort,0.0008193
+10000,Decrescente,Mergesort,0.0008294
+50000,Aleatorio,Mergesort,0.0046759
+50000,Crescente,Mergesort,0.0047020
+50000,Decrescente,Mergesort,0.0047387
