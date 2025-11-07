@@ -43,7 +43,7 @@ void mergesort2(int *A, int tamanho_vetor){
     int meio = tamanho_vetor / 2;
 
     mergesort2(A, meio);
-    mergesort2(A, tamanho_vetor-meio);
+    mergesort2(A+meio, tamanho_vetor-meio);
     intercala(A,meio,tamanho_vetor);  
 }
 

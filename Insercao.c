@@ -14,8 +14,9 @@ void insercao(int *A, int tamanho_vetor){
             A[i+1] = A[i];
             i = i - 1;
         }
+        A[i+1] = chave;
     }
-    A[i+1] = chave;
+    
 
 }
 

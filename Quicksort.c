@@ -29,6 +29,8 @@ void quicksort(int *A, int tamanho_vetor){
     quicksort(A + pos_pivo + 1, tamanho_vetor - pos_pivo - 1);
 }
 
+
+
 void gerar_vetor_aleatorio(int *A, int n) {
     for (int i = 0; i < n; i++)
         A[i] = rand() % n;
