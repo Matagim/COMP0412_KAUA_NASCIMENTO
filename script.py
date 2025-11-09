@@ -7,13 +7,15 @@ import seaborn as sea
 subprocess.run(["./quicksort"])
 subprocess.run(["./insercao"])
 subprocess.run(["./mergesort"])
+subprocess.run(["./heapsort2"])
 
 dq = pd.read_csv("tempos_quicksort.csv")
 dm = pd.read_csv("tempos_mergesort.csv")
 di = pd.read_csv("tempos_insercao.csv")
+dh = pd.read_csv("tempos_heapsort.csv")
 
 
-dados = pd.concat([dq, dm, di])
+dados = pd.concat([dq, dm, di, dh])
 
 
 sea.set(style="whitegrid", font_scale=1.2)
@@ -24,7 +26,8 @@ plt.figure(figsize=(10,6))
 cores = {
     "Quicksort": "red",
     "Mergesort": "blue",
-    "insercao": "green"
+    "insercao": "green",
+    "Heapsort": "yellow"
 }
 
 
